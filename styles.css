@@ -295,6 +295,40 @@ h3 {
   box-shadow: 0 12px 26px rgba(110, 75, 58, 0.35);
 }
 
+/* What to Expect Section */
+.expect-section {
+  background: var(--cream);
+  border-radius: var(--radius);
+  padding: 3em 1.5em;
+  box-shadow: var(--shadow);
+  max-width: var(--max-width);
+  margin: 4em auto;
+  line-height: 1.8;
+  color: var(--brown);
+}
+
+.expect-section h2 {
+  color: var(--auburn);
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.expect-content p {
+  margin-bottom: 1.2em;
+  font-size: 1.05em;
+}
+
+.expect-content ul {
+  list-style-type: "🍂 ";
+  margin-left: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.expect-content li {
+  margin-bottom: 0.5em;
+  font-style: italic;
+}
+
 /* Footer */
 footer {
   background: var(--auburn);
